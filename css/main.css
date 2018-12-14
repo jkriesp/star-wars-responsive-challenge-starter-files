@@ -1,0 +1,32 @@
+main {
+  padding-top: 100px;
+}
+
+main .row {
+  margin-bottom: 20px;
+}
+
+.top-container {
+  background-color: #f0bd35;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid rgb(219, 219, 219);
+  
+}
+
+.card h3, .card p {
+  padding: 0 20px;
+}
+
+.card img {
+  width: 100%;
+  
+}
+
+@media only screen and (max-width: 640px) {
+  .card {
+    margin-bottom: 15px;
+  }
+}
